@@ -1,0 +1,468 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap');
+
+* {
+      box-sizing: border-box;
+}
+
+body {
+      overflow-x: hidden;
+}
+
+header,
+section {
+      width: auto;
+      height: auto;
+}
+
+/* header */
+header .navbar {
+      background: rgba(17, 4, 4, 0.3);
+}
+
+header .nav-link {
+      color: rgb(251, 254, 255);
+      text-indent: 2.5rem;
+}
+
+header .nav-link:hover {
+      color: rgb(94, 97, 97);
+}
+
+header .navbar-brand {
+      color: white;
+      font: bolder;
+      font-size: 1.2em;
+}
+
+header .navbar-brand:hover {
+      color: rgb(25, 25, 26);
+}
+
+.dropdown-content {
+      position: absolute;
+      display: none;
+      min-width: 1em 2rem;
+}
+
+.dropdown-content a {
+      color: rgb(63, 62, 62);
+      padding: 1rem;
+      display: block;
+}
+
+header .dropdown-content a:hover {
+      color: rgb(61, 60, 60);
+      text-decoration: none;
+      opacity: .3;
+}
+
+header .dropdown:hover .dropdown-content {
+      display: block;
+}
+
+header a {
+      font-weight: bold;
+      font-size: 1.2rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bannersection {
+      background: linear-gradient(to right, rgb(247, 82, 82), rgb(126, 213, 248));
+      padding: 2rem;
+}
+
+.jumbotron .display-4 {
+      font-family: cursive;
+      color: rgb(48, 47, 47);
+      font-size: 3rem;
+      font: bold;
+}
+
+.jumbotron .lead {
+      font-size: 1.2em;
+}
+
+.jumbotron {
+      margin: 8%;
+      background: linear-gradient(to left, rgba(85, 84, 84, 0.3), whitesmoke);
+      color: rgb(5, 4, 4);
+      width: auto;
+      height: auto;
+}
+
+.jumbotron img {
+      height: auto;
+      overflow: hidden;
+      float: right;
+      width: 20%;
+      border-radius: 50%;
+}
+
+/* article */
+.article .container .text1 {
+      display: block;
+      background: rgba(46, 45, 45, 0.3);
+      color: rgb(12, 5, 5);
+      height: 18em;
+      padding: 2em;
+      margin: 2em;
+}
+
+.article h1 {
+      font-size: 1.5rem;
+      letter-spacing: .4em;
+      font-weight: bolder;
+      padding-bottom: 1em;
+}
+
+.article img {
+      display: block;
+      float: left;
+      width: 40%;
+      border-radius: 20%;
+}
+
+.article a {
+      padding: 2em;
+}
+
+.article .text1 button {
+      align-items: center;
+      background: burlywood;
+      box-shadow: 2px 2px 4px rgb(134, 131, 131);
+      font-weight: bolder;
+      width: 35%;
+      height: 3rem;
+      border-radius: 30px;
+}
+
+.article .text1 button:hover {
+      color: red;
+}
+
+/*gallery*/
+.carousel-item .col-md-4 {
+      box-shadow: 2em 2em 2em rgb(124, 123, 123);
+
+}
+
+.carousel .container-carousel {
+      width: 90%;
+      padding: 2rem;
+      margin: 5%;
+      color: #f1f1f1;
+      box-sizing: border-box;
+}
+
+.carousel-inner .head {
+      color: rgb(29, 2, 2);
+      font-style: bold;
+      font-size: 4em;
+      font-variant: small-caps;
+      font-family: cursive;
+      text-align-last: center;
+}
+
+.img-text img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      text-align: center;
+      padding: 40% 5%;
+      color: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+}
+
+.img-text {
+      padding: .1em;
+}
+
+.single-box {
+      position: relative;
+      margin-bottom: 30px;
+}
+
+.img-area {
+      padding: 1em;
+      width: 80%;
+      height: 100%;
+      border: 5px;
+      overflow: hidden;
+      color: #000;
+}
+
+.img-area h2 {
+      text-align: center;
+      font-size: 2rem;
+}
+
+.img-area p {
+      text-align: center;
+      font-size: 1rem;
+}
+
+.carousel-indicator {
+      left: 0;
+      top: auto;
+      bottom: -30px;
+}
+
+.carousel-indicator li {
+      border-radius: 50%;
+      width: 15%;
+      height: 15%;
+}
+
+.carousel-indicator .action {
+      background: #fff;
+}
+
+/* cards*/
+.purchase .card {
+      box-shadow: 2em 2em 2em rgb(102, 101, 101);
+      border-radius: 6%;
+      border: grey;
+}
+
+.purchase>h1 {
+      padding-top: 15vmin;
+      padding-bottom: 0.1em;
+}
+
+.purchase>p {
+      color: rgb(41, 40, 40);
+
+}
+
+/*to make it look like A  card*/
+.purchase .cards .card {
+      width: 20rem;
+      margin: 3vmin;
+}
+
+.purchase .col-md-12 h1 {
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 3em;
+      font-variant: small-caps;
+}
+
+.cards div {
+      padding: .5em;
+      margin: 1em;
+}
+
+.cards .title {
+      background-color: rgb(158, 160, 165);
+      border-radius: 10px 13px 10px 13px;
+      padding: 1rem;
+      font-size: 2vmin;
+
+}
+
+.cards .card-text {
+      font-size: 1rem;
+      padding: 2rem 2rem;
+      color: rgb(14, 12, 12);
+}
+
+.card-body .pricing>h1 {
+      font-size: 4vmin;
+      padding: .5em 0.5em;
+}
+
+.card-body .pricing>a {
+      font-size: 1rem;
+      width: 80%;
+      padding: .5rem;
+}
+
+.card-body .pricing a:hover {
+      color: lightcoral;
+}
+
+.card-body .pricing {
+      background: rgb(208, 241, 241, 0.199);
+      border-top-right-radius: 170px;
+      border-top-left-radius: 170px;
+}
+
+
+
+
+/*footer*/
+footer {
+      background-color: rgba(0, 0, 0, 0.815);
+      padding: 10vmin 14vmin;
+}
+
+footer input {
+      border: none;
+}
+
+footer input::placeholder {
+      color: white !important;
+}
+
+footer .input-group button {
+      background: var(--bggradient);
+      border: black;
+      background-color: #5ec4f3;
+      width: 130%;
+}
+
+footer .input-group-prepend button {
+      width: 40px;
+      transition-property: width;
+      transition-duration: 2s;
+}
+
+footer .column i {
+      color: #08bbf1;
+}
+
+footer .column i:hover {
+      color: whitesmoke;
+}
+
+footer .input-group button:hover {
+      color: #f1f1f1;
+      width: 300px;
+      cursor: pointer;
+
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+      body {
+            overflow-x: hidden;
+      }
+
+      header {
+            font-size: .2em;
+      }
+
+      header .navbar-brand {
+            font-weight: bold;
+            font-size: .9rem;
+      }
+
+      header a {
+            font: .9rem bold;
+      }
+
+      .jumbotron {
+            font-size: .3em;
+            display: block;
+            margin: 2%;
+            padding: 1em;
+      }
+
+      .jumbotron .display-4 {
+            font-size: 1.5rem;
+            font: bolder;
+      }
+
+      .jumbotron .lead {
+            font-size: 1em;
+      }
+
+      .article {
+            display: block;
+            align-items: center;
+      }
+
+      .article .container .text1 {
+            display: table;
+            background: rgba(46, 45, 45, 0.3);
+            color: rgb(12, 5, 5);
+            height: 10em;
+            padding: 2em;
+            margin: 2em;
+      }
+
+      .article img {
+            display: block;
+            width: 50%;
+
+      }
+
+      .article .container .text1 {
+            padding: .4em;
+            margin: .7rem;
+            font-size: .5em;
+      }
+
+      .article h1 {
+            font-size: 1em;
+      }
+
+      .article .text1 button {
+            font-size: .5em;
+            font-weight: bold;
+            width: 40%;
+            height: 1rem;
+      }
+
+      /* gallery */
+      .carousel .container-carousel {
+            display: block;
+            align-items: center;
+            width: 100%;
+            margin: 2%;
+            padding: 1em;
+      }
+
+      .carousel-item .col-md-4 {
+            border-style: ridge;
+      }
+
+      .carousel-inner .head {
+            font-size: 2em;
+
+      }
+
+      .img-text {
+            width: 60%;
+      }
+
+      .img-area {
+            width: 100%;
+            overflow: hidden;
+      }
+
+      .img-area h2 {
+            font-size: 1rem;
+      }
+
+      /* cards */
+      .purchase>h1 {
+            padding-top: 8vmin;
+      }
+
+      .purchase .col-md-12 h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+      }
+
+      .cards .title {
+            padding: .7em;
+            font-size: 2vmin;
+      }
+
+      .cards .card-text {
+            padding: 1rem;
+      }
+
+      .card-body .pricing>h1 {
+            font-size: 3vmin;
+      }
+
+      .card-body .pricing>a {
+            font-size: .5rem;
+            width: 90%;
+            padding: .9rem;
+            border-radius: 20%;
+      }
+}
