@@ -73,7 +73,6 @@ header a {
 }
 
 .jumbotron .display-4 {
-      font-family: cursive;
       color: rgb(48, 47, 47);
       font-size: 3rem;
       font: bold;
@@ -243,7 +242,6 @@ header a {
 }
 
 .purchase .col-md-12 h1 {
-      font-family: cursive;
       font-weight: bold;
       font-size: 3em;
       font-variant: small-caps;
